@@ -43,9 +43,9 @@ With only 0.08 % hits, precision stays very low: to catch about 75 % of the real
 
 Permutation importance (drop in ROC-AUC when a feature is shuffled) and the distribution of the top three features for hits vs. non-hits:
 
-![Permutation importance of the audio features](figures/feature_importance.png)
+![Permutation importance of the audio features](figures/09_feature_importance.png)
 
-![Hit vs. no hit: instrumentalness, loudness, danceability](figures/hit_vs_no_hit.png)
+![Hit vs. no hit: instrumentalness, loudness, danceability](figures/10_hit_vs_no_hit.png)
 
 - **Instrumentalness** is the strongest predictor – hits almost always contain vocals.
 - **Loudness** and **danceability** follow – hits are louder and more danceable.
@@ -67,7 +67,7 @@ Permutation importance (drop in ROC-AUC when a feature is shuffled) and the dist
 
 ```text
 ├── alexander_muhulica_dsp_project.ipynb   # full analysis, committed with all outputs
-├── figures/                               # figures shown in this README
+├── figures/                               # all 11 figures from the notebook, numbered in notebook order
 ├── requirements.txt                       # Python dependencies
 └── README.md
 ```
