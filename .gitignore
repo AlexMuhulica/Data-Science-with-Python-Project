@@ -1,0 +1,20 @@
+# Data (too large for GitHub – see README)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
